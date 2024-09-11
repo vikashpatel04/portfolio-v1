@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "NeueMachina";
+    src: local("NeueMachina-Regular"),
+    url('./assets/fonts/NeueMachina-Regular.otf') format('opentype'); 
+}
+@font-face {
+    font-family: "NeueMachina-Bold";
+    src: local("NeueMachina-Ultrabold"),
+    url('./assets/fonts/NeueMachina-Ultrabold.otf') format('opentype'); 
+}
+@font-face {
+    font-family: "NeueMachina-Light";
+    src: local("NeueMachina-Light"),
+    url('./assets/fonts/NeueMachina-Light.otf') format('opentype'); 
+}
+
+body::-webkit-scrollbar{
+    display: none;
+}
+
+.projects:hover > span{
+    cursor: pointer;
+    rotate: -45deg;
+}
