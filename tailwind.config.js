@@ -19,6 +19,11 @@ export default {
           from: { transform: "translateX(0)" },
           to: { transform: "translateX(-100%)" },
         }
+      },
+      cursor: {
+        'mac_default': 'url(./src/assets/images/default.png) , default',
+        'mac_pointer': 'url(./src/assets/images/handpointing.png), pointer',
+        'mac_text': 'url(./src/assets/images/textcursor.png), text'
       }
     },
   },
