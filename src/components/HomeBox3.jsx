@@ -2,6 +2,7 @@ import GitHub from "../assets/images/GitHub.png"
 import Insta from "../assets/images/Instagram-Circle.png"
 import LinkedIn from "../assets/images/LinkedIn-Circled.png"
 import Twitter from "../assets/images/TwitterX.png"
+import Mail from "../assets/images/mail.png"
 
 export default function HomeBox3() {
   return (
@@ -17,8 +18,8 @@ export default function HomeBox3() {
             <a href="https://x.com/vikashwastaken" target="_black" className="cursor-mac_pointer">
             <div className="flex items-center gap-3"><img src={Twitter} className="h-10" alt="logo" /><p className="text-2xl">X-Twitter</p></div>
             </a>
-            <a href="https://www.instagram.com/vikashwastaken/" target="_black" className="cursor-mac_pointer">
-            <div className="flex items-center gap-3"><img src={Insta} className="h-10" alt="logo" /><p className="text-2xl">Instagram</p></div>
+            <a href="mailto:vikashpatel.d0414@gmail.com" target="_black" className="cursor-mac_pointer">
+            <div className="flex items-center gap-3"><img src={Mail} className="h-10" alt="logo" /><p className="text-2xl">Mail</p></div>
             </a>
         </div>
     </div>
